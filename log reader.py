@@ -25,5 +25,7 @@ while True:
         imena = d.keys()
         print('Обращались вот эти браузеры - ', imena)
         c = Counter(browsers)
+        print('Вот сколько каждый браузер обратился раз - ')
         pprint(c)
+
 
