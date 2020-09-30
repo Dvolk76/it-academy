@@ -3,7 +3,19 @@ def get_current_time():
     pass
     #return time
 
+def print_digits(current_time):
+    pass
+
+def clear_screen():
+    pass
+
+def sleep_for_a_while(period):
+    pass
+
 if __name__ == '__main__':
     while True:
         # TODO set curretnt time
         current_time = get_current_time()
+        print_digits(current_time)
+        clear_screen()
+        sleep_for_a_while(0.3)
